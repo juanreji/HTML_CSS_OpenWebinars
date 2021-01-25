@@ -1,0 +1,56 @@
+#titulo{
+    color: red;
+    text-decoration: none;
+}
+
+a:link{
+color: green;
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+
+table, td, th{
+  border: solid 1px black;
+}
+
+.largo:hover{
+  font-size:xx-large;
+}
+
+.horas{
+  background-color: green;
+}
+
+th::first-letter{
+  color: black;
+  font-size: 35px;
+}
+
+.recreo{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  border-style: dashed 1px;
+  background-color: yellow;
+}
+
+.email{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.email input{
+  padding: 10px;
+}
+
+.email input:invalid{
+  border: red solid 1px;
+}
+
+.email label::after{
+  content: " *";
+  color: red;
+}
+

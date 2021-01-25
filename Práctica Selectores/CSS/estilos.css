@@ -1,0 +1,60 @@
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+}
+
+table, tr, td{
+    border: 1px solid black;
+    font-weight: bold;
+    
+}
+
+.amarillo{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.azul{
+    background-color: blue;
+    text-align: center;
+
+}
+
+.azulrojo{
+    background-color: blue;
+    color: red;
+    font-weight: normal;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.imagen{
+    text-align: center;
+}
+
+.rojo{
+    color: red;
+    font-weight: normal;
+}
+
+.rojoblanco{
+    background-color:red;
+    color: white;
+    text-align: center;
+}
+
+.gris{
+    background-color: gray;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    font-weight: lighter;
+}

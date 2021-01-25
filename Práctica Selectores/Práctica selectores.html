@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <meta name="description" content="Este es una práctica en el que se usa CSS y los selectores para poner estilos en la tabla que se ha usado para la práctica de tablas." />
+    <meta name="keywords" content="tabla, selector, CSS"/>
+    <meta name="author" content="Juan Luis Reyna Jiménez"/>
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+</head>
+<body>
+    <table>
+        <tbody>
+            <h1 class="centrado">Ejercicio práctico con Tablas</h1>
+
+            <tr>
+                <td></td>
+                <td colspan="3" class="azul imagen"><img src="Imagenes/120_ipod.png" height="50"></td>
+                <td colspan="2" class="azul imagen"><img src="Imagenes/100_ipod.png" height="50"></td>
+            </tr>
+
+            <tr>
+                <td class="rojoblanco">Capacidad</td>
+                <td class="gris">2GB</td>
+                <td class="gris">4GB</td>
+                <td class="gris">8GB</td>
+                <td class="gris">32GB</td>
+                <td class="gris">2GB</td>
+            </tr>
+            <tr>
+                <td class="rojoblanco">Colores</td>
+                <td class="centrado">Blanco</td>
+                <td class="rojo">
+                    <ul>
+                        <li>Negro</li>
+                        <li>Rosa</li>
+                        <li>Blanco</li>
+                    </ul>
+                </td>
+                <td class="centrado">Negro</td>
+                <td colspan="2" class="azulrojo">
+                    <ul>
+                        <li>Negro</li>
+                        <li>Blanco</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="rojoblanco">Pantalla</td>
+                <td colspan="3" class="azul">3 pulgadas</td>
+                <td colspan="2" class="azul">7 pulgadas</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4" class="rojoblanco">Tiempo de Carga</td>
+                <td rowspan="6" colspan="3" class="azul">1 hora</td>
+                <td colspan="5" class="amarillo">5 horas</td>
+            </tr>
+            <tr>
+                <td colspan="6" class="azul">30 minutos para 75%</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</body>
+</html>

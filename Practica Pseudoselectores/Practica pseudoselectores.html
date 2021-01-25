@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoselectores</title>
+    <meta name="description" content="Este es una práctica en el que se usa CSS y los pseudoselectores para poner estilos en una tabla que contiene un horario." />
+    <meta name="keywords" content="tabla, pseudoselector, CSS"/>
+    <meta name="author" content="Juan Luis Reyna Jiménez"/>
+    <link rel="stylesheet" type="text/css" href="./CSS/estilos.css">
+</head>
+<body>
+    <table>
+    <caption><a id="titulo" href="http://www.openwebinars.net" target="blank">HORARIO DE CLASE CURSO 2018-2019</a></caption>
+    <tbody>
+        <tr>
+            <th>HORAS</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th class="largo">Viernes</th>
+        </tr>
+        <tr>
+            <td class="horas">8:00</td>
+            <td rowspan="2">Matemáticas</td>
+            <td>Lengua</td>
+            <td>Inglés</td>
+            <td colspan="2" class="largo">Ciencias</td>
+        </tr>
+
+        <tr>
+            <td class="horas">9:00</td>
+            <td>Historia</td>
+            <td>Ciencias</td>
+            <td>Matemáticas</td>
+            <td class="largo">Lengua</td>
+        </tr>
+
+        <tr>
+            <td class="horas">10:00</td>
+            <td colspan="5" class="recreo largo">RECREO</td>
+        </tr>
+        <tr>
+            <td class="horas">10:30</td>
+            <td>Inglés</td>
+            <td rowspan="2">Ciencias</td>
+            <td>Matemáticas</td>
+            <td>Lengua</td>
+            <td class="largo">Historia</td>
+        </tr>
+        <tr>
+            <td class="horas">11:30</td>
+            <td>Historia</td>
+            <td>Ciencias</td>
+            <td>Matemáticas</td>
+            <td class="largo">Inglés</td>
+        </tr>
+    </tbody>
+
+    </table>
+
+    <div class="email">
+        <label for="Email">Email</label>
+        <input type="email" name="Email" placeholder="Inserte email del destinatario" required/>
+    </div>
+
+    <div class="boton-enviar">
+        <input type="button" value="Enviar Horario">
+    </div>
+</body>
+</html>
